@@ -113,7 +113,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import SplitText from "gsap/SplitText";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import React, {  useRef } from "react";
+import React, { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 
 gsap.registerPlugin(SplitText, ScrollTrigger);
@@ -244,9 +244,9 @@ const Hero = () => {
 
             <div className="view-cocktails">
               <p ref={subtitle2Ref} className="subtitle">
-                Every cocktail on our menu is a blend of premium ingredients,
-                creative flair, and timeless recipes — designed to delight your
-                senses.
+                Every cocktail on our menu is a blend of premium
+                ingredients,creative flair, and timeless recipes — designed to
+                delight your senses.
               </p>
               <a href="#cocktails">View cocktails</a>
             </div>
